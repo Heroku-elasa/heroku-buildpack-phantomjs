@@ -53,5 +53,7 @@ heroku config:add LD_LIBRARY_PATH=/usr/local/lib:/usr/lib:/lib:/app/vendor/phant
 heroku run bash
 vendor/phantomjs/bin/phantomjs
 
+phantomjs --webdriver=8080 
+
 
 ```
