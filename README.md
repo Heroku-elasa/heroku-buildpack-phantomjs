@@ -49,4 +49,9 @@ git commit -a  -m "first commit"
 #git checkout -b  newbranch
 git push heroku master
 
+heroku config:add LD_LIBRARY_PATH=/usr/local/lib:/usr/lib:/lib:/app/vendor/phantomjs/lib
+heroku run bash
+vendor/phantomjs/bin/phantomjs
+
+
 ```
