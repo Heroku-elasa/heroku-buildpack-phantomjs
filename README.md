@@ -22,7 +22,7 @@ or my version:
 ```shell
 
 mkdir rem
-git clone https://elasa:ss123456@gitlab.com/elasa/ieee2.git
+git clone https://elasa:mypass@gitlab.com/elasa/ieee2.git
 cd i*
 git init
 git add .
